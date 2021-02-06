@@ -14,7 +14,7 @@ import java.text.AttributedCharacterIterator;
  * Instances of this class are immutable and thread-safe.
  *
  * @author sffc
- * @see NumberRangeFormatter
+ * @see android.icu.number.NumberRangeFormatter
  */
 
 @SuppressWarnings({"unchecked", "deprecation", "all"})
@@ -31,7 +31,7 @@ public java.lang.String toString() { throw new RuntimeException("Stub!"); }
 /**
  * {@inheritDoc}
  *
- * @hide draft / provisional / internal are hidden on Android
+ * @hide Hide new API in Android temporarily
  */
 
 public char charAt(int index) { throw new RuntimeException("Stub!"); }
@@ -39,7 +39,7 @@ public char charAt(int index) { throw new RuntimeException("Stub!"); }
 /**
  * {@inheritDoc}
  *
- * @hide draft / provisional / internal are hidden on Android
+ * @hide Hide new API in Android temporarily
  */
 
 public int length() { throw new RuntimeException("Stub!"); }
@@ -47,7 +47,7 @@ public int length() { throw new RuntimeException("Stub!"); }
 /**
  * {@inheritDoc}
  *
- * @hide draft / provisional / internal are hidden on Android
+ * @hide Hide new API in Android temporarily
  */
 
 public java.lang.CharSequence subSequence(int start, int end) { throw new RuntimeException("Stub!"); }
@@ -63,7 +63,7 @@ public java.text.AttributedCharacterIterator toCharacterIterator() { throw new R
  * printed after scaling and rounding have been applied by the number range formatting pipeline.
  *
  * @return A BigDecimal representation of the first formatted number.
- * @see NumberRangeFormatter
+ * @see android.icu.number.NumberRangeFormatter
  * @see #getSecondBigDecimal
  */
 
@@ -74,7 +74,7 @@ public java.math.BigDecimal getFirstBigDecimal() { throw new RuntimeException("S
  * printed after scaling and rounding have been applied by the number range formatting pipeline.
  *
  * @return A BigDecimal representation of the second formatted number.
- * @see NumberRangeFormatter
+ * @see android.icu.number.NumberRangeFormatter
  * @see #getFirstBigDecimal
  */
 
@@ -86,8 +86,8 @@ public java.math.BigDecimal getSecondBigDecimal() { throw new RuntimeException("
  * identity fallback was used.
  *
  * @return A RangeIdentityType indicating the resulting identity situation in the formatted number range.
- * @see NumberRangeFormatter
- * @see NumberRangeFormatter.RangeIdentityFallback
+ * @see android.icu.number.NumberRangeFormatter
+ * @see android.icu.number.NumberRangeFormatter.RangeIdentityFallback
  */
 
 public android.icu.number.NumberRangeFormatter.RangeIdentityResult getIdentityResult() { throw new RuntimeException("Stub!"); }
@@ -95,7 +95,7 @@ public android.icu.number.NumberRangeFormatter.RangeIdentityResult getIdentityRe
 /**
  * {@inheritDoc}
  *
- * @hide draft / provisional / internal are hidden on Android
+ * @hide Hide new API in Android temporarily
  */
 
 public int hashCode() { throw new RuntimeException("Stub!"); }
@@ -103,7 +103,7 @@ public int hashCode() { throw new RuntimeException("Stub!"); }
 /**
  * {@inheritDoc}
  *
- * @hide draft / provisional / internal are hidden on Android
+ * @hide Hide new API in Android temporarily
  */
 
 public boolean equals(java.lang.Object other) { throw new RuntimeException("Stub!"); }
