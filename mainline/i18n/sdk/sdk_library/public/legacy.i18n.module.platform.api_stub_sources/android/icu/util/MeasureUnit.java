@@ -1,6 +1,6 @@
 /* GENERATED SOURCE. DO NOT MODIFY. */
 // © 2016 and later: Unicode, Inc. and others.
-// License & terms of use: http://www.unicode.org/copyright.html#License
+// License & terms of use: http://www.unicode.org/copyright.html
 /*
  *******************************************************************************
  * Copyright (C) 2004-2016, Google Inc, International Business Machines
@@ -27,13 +27,13 @@ public class MeasureUnit implements java.io.Serializable {
 MeasureUnit() { throw new RuntimeException("Stub!"); }
 
 /**
- * Get the type, such as "length"
+ * Get the type, such as "length". May return null.
  */
 
 public java.lang.String getType() { throw new RuntimeException("Stub!"); }
 
 /**
- * Get the subType, such as “foot”.
+ * Get the subType, such as “foot”. May return null.
  */
 
 public java.lang.String getSubtype() { throw new RuntimeException("Stub!"); }
@@ -259,6 +259,13 @@ public static final android.icu.util.TimeUnit DAY;
 static { DAY = null; }
 
 /**
+ * Constant for unit of duration: decade
+ */
+
+public static final android.icu.util.MeasureUnit DECADE;
+static { DECADE = null; }
+
+/**
  * Constant for unit of volume: deciliter
  */
 
@@ -278,6 +285,27 @@ static { DECIMETER = null; }
 
 public static final android.icu.util.MeasureUnit DEGREE;
 static { DEGREE = null; }
+
+/**
+ * Constant for unit of graphics: dot-per-centimeter
+ */
+
+public static final android.icu.util.MeasureUnit DOT_PER_CENTIMETER;
+static { DOT_PER_CENTIMETER = null; }
+
+/**
+ * Constant for unit of graphics: dot-per-inch
+ */
+
+public static final android.icu.util.MeasureUnit DOT_PER_INCH;
+static { DOT_PER_INCH = null; }
+
+/**
+ * Constant for unit of graphics: em
+ */
+
+public static final android.icu.util.MeasureUnit EM;
+static { EM = null; }
 
 /**
  * Constant for unit of temperature: fahrenheit
@@ -602,6 +630,13 @@ public static final android.icu.util.MeasureUnit MEGALITER;
 static { MEGALITER = null; }
 
 /**
+ * Constant for unit of graphics: megapixel
+ */
+
+public static final android.icu.util.MeasureUnit MEGAPIXEL;
+static { MEGAPIXEL = null; }
+
+/**
  * Constant for unit of power: megawatt
  */
 
@@ -873,6 +908,27 @@ static { PINT = null; }
 
 public static final android.icu.util.MeasureUnit PINT_METRIC;
 static { PINT_METRIC = null; }
+
+/**
+ * Constant for unit of graphics: pixel
+ */
+
+public static final android.icu.util.MeasureUnit PIXEL;
+static { PIXEL = null; }
+
+/**
+ * Constant for unit of graphics: pixel-per-centimeter
+ */
+
+public static final android.icu.util.MeasureUnit PIXEL_PER_CENTIMETER;
+static { PIXEL_PER_CENTIMETER = null; }
+
+/**
+ * Constant for unit of graphics: pixel-per-inch
+ */
+
+public static final android.icu.util.MeasureUnit PIXEL_PER_INCH;
+static { PIXEL_PER_INCH = null; }
 
 /**
  * Constant for unit of length: point
