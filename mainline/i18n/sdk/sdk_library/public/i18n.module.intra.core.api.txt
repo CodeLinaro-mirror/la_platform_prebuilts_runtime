@@ -1,10 +1,6 @@
 // Signature format: 2.0
 package android.icu.text {
 
-  public class DateFormatSymbols implements java.lang.Cloneable java.io.Serializable {
-    method public String[] getNarrowEras();
-  }
-
   public abstract class TimeZoneNames implements java.io.Serializable {
     method public java.util.Collection<android.icu.text.TimeZoneNames.MatchInfo> find(CharSequence, int, java.util.EnumSet<android.icu.text.TimeZoneNames.NameType>);
   }
@@ -82,6 +78,7 @@ package com.android.i18n.timezone {
   public final class ZoneInfoData {
     method @NonNull public com.android.i18n.timezone.ZoneInfoData createCopyWithRawOffset(int);
     method @NonNull public static com.android.i18n.timezone.ZoneInfoData createFromSerializationFields(@NonNull String, @NonNull java.io.ObjectInputStream.GetField) throws java.io.IOException;
+    method @NonNull public static com.android.i18n.timezone.ZoneInfoData createInstance(@NonNull String, @NonNull long[], @NonNull byte[], @NonNull int[], @NonNull boolean[]);
     method @NonNull public static com.android.i18n.timezone.ZoneInfoData createZoneInfo(@NonNull String, @NonNull java.nio.ByteBuffer) throws java.io.IOException;
     method @NonNull public String getID();
     method @Nullable public Integer getLatestDstSavings(long);
